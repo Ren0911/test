@@ -80,7 +80,8 @@ p::selection{
 
         &:hover{
             display: block;
-
+            transform: translate(0%);
+            border: none;
         }
         
     }
