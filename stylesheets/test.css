@@ -19,7 +19,6 @@ p::selection {
 .banner {
   width: 100%;
   height: 100vh;
-  border-bottom: 1px solid #d8e4e9;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -44,10 +43,21 @@ p::selection {
       top: 0; }
 
 .container {
+  background-color: white;
   height: 300px;
-  border-bottom: 1px solid #d8e4e9; }
+  border-bottom: 1px solid #d8e4e9;
+  border-top: 1px solid #d8e4e9; }
+  .container:hover {
+    transform: scale(1.1);
+    border-top: 1px solid #d8e4e9;
+    border-bottom: 1px solid #d8e4e9; }
   .container-right {
-    position: relative; }
+    position: relative;
+    transform: translate(80%);
+    border: none;
+    border-left: 1px solid #d8e4e9; }
+    .container-right:hover {
+      display: block; }
   .container-content {
     width: 50%;
     padding: 5%;
