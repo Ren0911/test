@@ -430,8 +430,12 @@ ul{
 @media screen and (max-width:735px){  
     .banner{
         &-image{
-            width: 100%;
+            width: 130%;
             height: 50%;
+
+            &-right{
+                left: 0;
+            }
         }
     
         &-content{
