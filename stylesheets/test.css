@@ -380,6 +380,23 @@ ul {
 
   body {
     min-width: 480px; } }
+@media screen and (max-width: 414px) {
+  .banner-content {
+    margin: 40vh 0 0 0; }
+  .banner-image {
+    width: 116vw; }
+
+  .container {
+    height: 92vh; }
+    .container-content {
+      margin: 47vh 0 0 0;
+      padding: 14% 5% 5% 5%; }
+
+  .paddle {
+    height: 98.6%; }
+
+  input {
+    width: 98%; } }
 @media screen and (max-width: 375px) {
   .banner-content {
     margin: 40vh 0 0 0; }
@@ -387,7 +404,7 @@ ul {
   .container {
     height: 92vh; }
     .container-content {
-      margin: 42vh 0 0 0;
+      margin: 36.5vh 0 0 0;
       padding: 14% 5% 5% 5%; }
 
   .paddle {
