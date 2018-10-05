@@ -295,8 +295,10 @@ ul {
     padding: 2% 5% 2% 5%; } }
 @media screen and (max-width: 735px) {
   .banner-image {
-    width: 100%;
+    width: 130%;
     height: 50%; }
+    .banner-image-right {
+      left: 0; }
   .banner-content {
     width: 90%;
     padding: 5%;
