@@ -573,11 +573,13 @@ ul{
 
 @media screen and (max-width:414px){
     .banner{
+        height: 117vh;
         &-content{
-            margin: 50vh 0 0 0;
+            margin: 65vh 0 0 0;
         }
         &-image{
             width: 116vw;
+            height: 65vh;
         }
     }
 
@@ -600,31 +602,15 @@ ul{
 
 }
 
-
-@media screen and (max-width:375px) and (max-height:667px){
-    .banner{
-        &-content{
-            margin: 50vh 0 0 0;
-        }
-        &-image{
-            width: 128vw;
-        }
-    }
-    .container{
-        &-content{
-            margin: 41vh 0 0 0;
-            padding: 20% 5% 0% 5%;
-        }
-    }
-}
-
 @media screen and (max-width:375px) and (min-height:812px){
     .banner{
+        height: 128vh;
         &-content{
-            margin: 50vh 0 0 0;
+            margin: 80vh 0 0 0;
         }
         &-image{
             width: 128vw;
+            height: 75vh;
         }
     }
 
@@ -657,10 +643,34 @@ ul{
 
 }
 
+@media screen and (max-width:375px) and (max-height:667px){
+    .banner{
+        height: 128vh;
+        &-content{
+            margin: 70vh 0 0 0;
+        }
+        &-image{
+            width: 128vw;
+            height: 70vh;
+        }
+    }
+    .container{
+        &-content{
+            margin: 41vh 0 0 0;
+            padding: 20% 5% 0% 5%;
+        }
+    }
+}
+
 @media screen and (max-width:360px){
     .banner{
+        height: 135vh;
         &-image{
             width: 134vw;
+            height: 70vh;
+        }
+        &-content{
+            margin: 70vh 0 0 0;
         }
     }
     .container{
