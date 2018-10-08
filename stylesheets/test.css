@@ -382,14 +382,14 @@ ul {
     min-width: 480px; } }
 @media screen and (max-width: 414px) {
   .banner-content {
-    margin: 40vh 0 0 0; }
+    margin: 50vh 0 0 0; }
   .banner-image {
     width: 116vw; }
 
   .container {
     height: 92vh; }
     .container-content {
-      margin: 47vh 0 0 0;
+      margin: 46vh 0 0 0;
       padding: 14% 5% 5% 5%; }
 
   .paddle {
@@ -431,3 +431,10 @@ ul {
     width: 96%;
     height: 210px;
     padding: 2% 0 0 2%; } }
+@media screen and (max-width: 360px) {
+  .banner-image {
+    width: 134vw; }
+
+  .container-content {
+    margin: 40vh 0 0 0;
+    padding: 17% 5% 0% 5%; } }
