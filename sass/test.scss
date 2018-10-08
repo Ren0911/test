@@ -666,7 +666,7 @@ ul{
     .banner{
         height: 135vh;
         &-image{
-            width: 134vw;
+            width: 133.3vw;
             height: 70vh;
         }
         &-content{
@@ -677,6 +677,26 @@ ul{
         &-content{
             margin: 40vh 0 0 0;
             padding: 17% 5% 0% 5%;
+        }
+    }
+}
+
+@media screen and (max-width:320px){
+    .banner{
+        height: 150vh;
+        &-image{
+            width: 150vw;
+            height: 85vh;
+        }
+        &-content{
+            margin: 85vh 0 0 0;
+        }
+    }
+    .container{
+        height: 100vh;
+        &-content{
+            margin: 52vh 0 0 0;
+            padding: 6% 5% 0% 5%;
         }
     }
 }
