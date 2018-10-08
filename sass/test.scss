@@ -606,14 +606,22 @@ ul{
         &-content{
             margin: 43vh 0 0 0;
         }
+        &-image{
+            width: 128vw;
+        }
     }
-
+    .container{
+        &-content{
+            margin: 41vh 0 0 0;
+            padding: 20% 5% 0% 5%;
+        }
+    }
 }
 
-@media screen and (max-width:375px) and (max-height:812px){
+@media screen and (max-width:375px) and (min-height:812px){
     .banner{
         &-content{
-            margin: 40vh 0 0 0;
+            margin: 50vh 0 0 0;
         }
         &-image{
             width: 128vw;
