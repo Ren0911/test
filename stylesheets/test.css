@@ -399,7 +399,7 @@ ul {
     width: 98%; } }
 @media screen and (max-width: 375px) and (max-height: 667px) {
   .banner-content {
-    margin: 43vh 0 0 0; }
+    margin: 50vh 0 0 0; }
   .banner-image {
     width: 128vw; }
 
