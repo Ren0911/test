@@ -43,6 +43,10 @@ p::selection{
         /* ↑上面四行是一個集團，注意每次用到bgImage都要加這四句 */
         width: 50%;
         height: 100%;
+        background:#fff;
+        background:linear-gradient(top,#ffffff,rgba(51,51,51,0.1)),url(../image/2.jpg) center bottom no-repeat;
+        background:-moz-linear-gradient(top,#ffffff,rgba(51,51,51,0.1)),url(../image/2.jpg) center bottom no-repeat;
+        background:-webkit-linear-gradient(top,#ffffff,rgba(51,51,51,0.1)),url(../image/2.jpg) center bottom no-repeat; 
 
         &-right{
             background-repeat: no-repeat;
@@ -63,11 +67,13 @@ p::selection{
     border-top: 1px solid rgb(216, 228, 233);
     position: relative;
     z-index: 1;
+    opacity: 0.7;
 
     &:hover{
         transform: scale(1.1);
         border-top: 1px solid rgb(216, 228, 233);
         border-bottom: 1px solid rgb(216, 228, 233);
+        opacity: 1;
 
     }
 
