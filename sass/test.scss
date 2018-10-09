@@ -139,7 +139,7 @@ p::selection{
     border:1px solid #dbd9d9;
     padding: 10px 30px;
     border-radius: 40px;
-    transition: background .2s linear, border-radius .5s ease-in;    
+    transition: background .1s linear, border-radius .5s ease-in;    
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -150,7 +150,6 @@ p::selection{
         color: powderblue;
         background-color: #555555;
         border-radius: 0;
-        transition: background .1s linear, border-radius .5s ease-in .5s;
     }
     
 }
